@@ -1,0 +1,17 @@
+{
+  "name": "brew",
+  "description": "Brewing station automatisation using node on raspberry pi",
+  "main": "index.js",
+  "version": "1.0.0",
+  "author": "Me",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JeanYvesBreton/brew.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "ds18b20-raspi": "^0.2.4",
+    "pi-gpio": "0.0.8"
+  }
+}
